@@ -39,13 +39,13 @@ Traditional microfluidic systems rely on pressure, valves, or material chemistry
 The idea is to create a filtration system using fluid vibrations that can be used in microfluidic applications. The setup consists of a piezoelectric pump that 
 generates waves of a given amplitude A along the chip, 3 fluidic cantilever beams responsible for determining when the fluid stabilizes at a particular frequency, 
 and a valve that allows the fluid when tuned at the correct frequency to enter another chip containing the filtered elements of the fluid. For this system we 
-will avoid using fluids of high viscosity.
+will avoid using fluids of high viscosity. 
 
 <img width="980" height="448" alt="image" src="https://github.com/user-attachments/assets/3af0f909-4d79-43a0-b34d-5516c4b84d6d" />
 
 **Fig 1. Frequency – Based Filtration Control Logic**
 
-Piezoelectric pump will send a short pulse signal A*exp(it) for a small period of time T and then will stop for a period of time 2t (with T << 2t) which is proportional 
+Piezoelectric pump will send a short pulse signal for a small period of time T and then will stop for a period of time 2t (with T << 2t) which is proportional 
 to at least twice the length of the microfluidic chip to ensure frequency stability after 2t. After that time the signal will still have irregularities b of the form A*exp(bit) 
 representing that the frequency of the fluid won’t be entirely stable. The sensors C1, C2, C3 are activated near the end of period 2t. Sensors C1, C3 are first activated to measure 
 if the frequency of each end of the chip is more or less consistent. Sensor C2 captures the final measured frequency f and compares it to f_desired. If f < f_desired the piezoelectric
