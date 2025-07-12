@@ -1,8 +1,6 @@
-# LabsOf1.Frequency-Based-Microfluidic-Low-Viscosity-Filter.io
+# LabsOf1.Frequency Based Microfluidic Low Viscosity Filter.io
 
-### PROJECT 2 Frequency-Based-Microfluidic-Low-Viscosity-Filter
-
-### Frequency-Based Microfluidic Low-Viscosity Filter
+### PROJECT 2 Frequency Based Microfluidic Low Viscosity Filter
 
 **Summary:**  
 A microfluidic filtration system that uses dynamic fluid vibrations to control flow based on frequency stability, enabling selective filtering of particles or compounds in low-viscosity fluids.
